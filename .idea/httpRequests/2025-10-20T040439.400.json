@@ -1,0 +1,7 @@
+{
+  "timestamp": "2025-10-20T01:04:39.085+00:00",
+  "path": "/api/gateway/auth/login",
+  "status": 400,
+  "error": "Bad Request",
+  "requestId": "a7c02eba-4"
+}

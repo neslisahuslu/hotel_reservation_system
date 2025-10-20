@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-10-19T11:32:00.905+00:00",
+  "status": 404,
+  "error": "Not Found",
+  "path": "/api/reservations/test"
+}

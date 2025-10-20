@@ -1,0 +1,557 @@
+GET http://localhost:8082/api/reservations
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJBRE1JTiJdLCJzdWIiOiJhZG1pbiIsImlhdCI6MTc2MDk1NTM0MiwiZXhwIjoxNzYwOTkxMzQyfQ.qmO3sJ5q1TCIU0SBXrH6mKotEi7RH43SPx-Yd7VKt-E
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+content-length: 0
+
+<> 2025-10-20T131857.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJBRE1JTiJdLCJzdWIiOiJhZG1pbiIsImlhdCI6MTc2MDk1NTM0MiwiZXhwIjoxNzYwOTkxMzQyfQ.qmO3sJ5q1TCIU0SBXrH6mKotEi7RH43SPx-Yd7VKt-E
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+content-length: 0
+
+###
+
+GET http://localhost:8082/api/reservations/test
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJBRE1JTiJdLCJzdWIiOiJhZG1pbiIsImlhdCI6MTc2MDk1NTM0MiwiZXhwIjoxNzYwOTkxMzQyfQ.qmO3sJ5q1TCIU0SBXrH6mKotEi7RH43SPx-Yd7VKt-E
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+content-length: 0
+
+###
+
+GET http://localhost:8082/api/reservations/test
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+content-length: 0
+
+###
+
+GET http://localhost:8082/api/reservations/test
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJBRE1JTiJdLCJzdWIiOiJhZG1pbiIsImlhdCI6MTc2MDk1NTM0MiwiZXhwIjoxNzYwOTkxMzQyfQ.qmO3sJ5q1TCIU0SBXrH6mKotEi7RH43SPx-Yd7VKt-E
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+content-length: 0
+
+###
+
+POST http://localhost:8084/api/auth/login
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+<> 2025-10-20T131543.200.json
+
+###
+
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+<> 2025-10-20T131533.500.json
+
+###
+
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+<> 2025-10-20T131441.500.json
+
+###
+
+POST http://localhost:8080/api/gateway/auth/login
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+###
+
+POST http://localhost:8080/api/gateway/auth/login
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+###
+
+POST http://localhost:8080/api/gateway/auth/login
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+###
+
+POST http://localhost:8080/api/gateway/auth/login
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+###
+
+POST http://localhost:8080/api/gateway/auth/login
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+###
+
+GET http://localhost:8082/api/reservations/test
+Authorization: Bearer <your-jwt-token-here>
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+content-length: 0
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+content-length: 0
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+content-length: 0
+
+###
+
+GET http://localhost:8081/api/hotels?page=72&size=28&orderBy=cquC2j_O&orderDirection=8t1BJwor
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+content-length: 0
+
+<> 2025-10-20T124702.400.json
+
+###
+
+POST http://localhost:8081/api/hotels?page=41&size=12&orderBy=lrCRpUoD&orderDirection=D5JA4YHa
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C19D0101192956D286A752EF2E9C5DA
+content-length: 0
+
+<> 2025-10-20T124626.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8080/api/gateway/hotel
+Content-Type: application/json
+Content-Length: 72
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "asd",
+  "address": "asda",
+  "star": 1,
+  "phone": "1234"
+}
+
+<> 2025-10-20T043417.500.json
+
+###
+
+POST http://localhost:8080/api/gateway/auth/login
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+<> 2025-10-20T040439.400.json
+
+###
+
+POST http://localhost:8080/api/gateway/auth/login
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-20T040425.415.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T163639.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T163525.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T160726.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T160238.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T155943.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T154903.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T154130.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T143629.404.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T143557.404.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T143307.404.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T143200.404.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T143049.404.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T142321.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T133616.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T120700.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T120521.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T115141.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T114536.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T114300.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T112701.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T112624.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T112436.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T112029.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-10-19T111947.500.json
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8082/api/reservations/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+

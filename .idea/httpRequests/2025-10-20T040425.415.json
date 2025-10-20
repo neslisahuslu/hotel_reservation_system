@@ -1,0 +1,7 @@
+{
+  "timestamp": "2025-10-20T01:04:25.515+00:00",
+  "path": "/api/gateway/auth/login",
+  "status": 415,
+  "error": "Unsupported Media Type",
+  "requestId": "11ad6c5b-3"
+}

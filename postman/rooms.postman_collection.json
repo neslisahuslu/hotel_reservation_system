@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "2c9f8bee-bef4-4a53-9793-fd41a9139c94",
+		"name": "rooms",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29960605"
+	},
+	"item": [
+		{
+			"name": "Get All Rooms",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{accessToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/rooms",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"rooms"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "size",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "orderBy",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "orderDirection",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Room",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{accessToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"hotelId\":\"bd503815-c0d0-45f4-adb3-9f494f0dd817\",\n        \"capactiy\":\"2\",\n        \"pricePerNight\": 500,\n        \"roomNumber\":\"SR3\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/rooms",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"rooms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Room",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{accessToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\":\"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/rooms",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"rooms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Room",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{accessToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"hotelId\":\"a647875c-a387-447f-987b-5288fac8623b\",\n        \"capacity\":\"4\",\n        \"pricePerNight\": 1000,\n        \"roomNumber\":\"AR45\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}rooms/:roomId",
+					"host": [
+						"{{baseUrl}}rooms"
+					],
+					"path": [
+						":roomId"
+					],
+					"variable": [
+						{
+							"key": "roomId",
+							"value": "8851990f-15aa-4aea-98f2-7c81a9ed3c82"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Room By Id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{accessToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/rooms/:roomId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"rooms",
+						":roomId"
+					],
+					"variable": [
+						{
+							"key": "roomId",
+							"value": "4c2478ec-b293-4517-9eeb-09c8ba562952"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

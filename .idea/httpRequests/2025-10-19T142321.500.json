@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-10-19T11:23:21.307+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/api/reservations/test"
+}

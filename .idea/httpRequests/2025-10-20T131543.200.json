@@ -1,0 +1,7 @@
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJBRE1JTiJdLCJzdWIiOiJhZG1pbiIsImlhdCI6MTc2MDk1NTM0MiwiZXhwIjoxNzYwOTkxMzQyfQ.qmO3sJ5q1TCIU0SBXrH6mKotEi7RH43SPx-Yd7VKt-E",
+  "username": "admin",
+  "roles": [
+    "ADMIN"
+  ]
+}

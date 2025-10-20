@@ -1,0 +1,7 @@
+{
+  "timestamp": "2025-10-20T01:34:17.682+00:00",
+  "path": "/api/gateway/hotel",
+  "status": 500,
+  "error": "Internal Server Error",
+  "requestId": "5146e4af-2"
+}

@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "618a5ef0-a213-4e27-b0cf-e2181c0ff737",
+		"name": "reservations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29960605"
+	},
+	"item": [
+		{
+			"name": "Create Reservation",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{accessToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"hotelId\":\"bd503815-c0d0-45f4-adb3-9f494f0dd817\",\n    \"roomId\":\"1e2def40-0465-4429-bdc6-14937797203b\",\n    \"userId\":\"16f8442c-c043-453a-a32a-8ed13802659c\",\n    \"guestName\":\"admin\",\n    \"checkInDate\":\"2025-12-18\",\n    \"checkOutDate\":\"2025-12-20\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/reservations?email=email@email.com",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"reservations"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "email@email.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Reservation (Me)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{accessToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/reservations",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"reservations"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "size",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "orderBy",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "orderDirection",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
